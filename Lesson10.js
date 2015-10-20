@@ -52,7 +52,7 @@ welcomeMessage();
 //Exercise 2
 function random_number(min, max)
 {
-   counter = 0;
+   var counter = 0;
    string = "";
    while (counter <= 10) {
   loopNumber = newRandomNumber =  Math.floor(Math.random() * (max - min + 1)) + min;
