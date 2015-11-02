@@ -95,8 +95,8 @@ function each(collection, callback){
     callback(collection[i]);
   }}
   else {
-    for (var property in collection){
-      callback(collection[property]);
+    for (var key in collection){
+      callback(collection[key]);
     }
   }
 }

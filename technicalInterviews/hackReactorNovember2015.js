@@ -95,14 +95,14 @@ each(capitals, printCapital);
 // Write the body of the function below:
 
 var each = function (collection, callback) {
-  if (Array.isArray(collection)) {  // Check to see if its an Array or Object with an If/Else Statement
-	for (var i = 0; i < collection.length; i++) {
-    callback(collection[i]); // Runs the code for your Array
+  if (Array.isArray(collection))
+  {
+	for (var i = 0; i < collection.length; i++)
+  {callback(collection[i]);}
   }
-  }
-  else { // Runs the code if its an Object
-  for (var property in collection) {
-    callback(collection[property]);
-  }
+  else
+  {
+  for (var property in collection)
+  {callback(collection[property]);}
   }
 };
